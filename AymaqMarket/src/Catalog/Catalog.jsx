@@ -5,30 +5,41 @@ import forCatalog from "../Images/forCatalog.png" ;
 
 function Category() {
 
-  const Category = [
-    { id: 1, text: "Drinks", image: forCatalog },
-    { id: 2, text: "Drinks", image: forCatalog },
-    { id: 3, text: "Drinks", image: forCatalog },
-    { id: 4, text: "Drinks", image: forCatalog },
-    { id: 5, text: "Drinks", image: forCatalog },
-    { id: 6, text: "Drinks", image: forCatalog },
-    { id: 7, text: "Drinks", image: forCatalog },
-    { id: 8, text: "Drinks", image: forCatalog },
-    { id: 9, text: "Drinks", image: forCatalog },
-    { id: 10, text: "Drinks", image: forCatalog },
-  ];
-
-
   return (
     <>
+      {/*Searchbar*/}
       <div className="search-bar">
         <input type="search" placeholder="Search products..." />
         <Search />
       </div>
-      
+
+      {/*Categorybar*/}
       <div className="category-bar">
-        
-      </div> 
+        <div className="category-row">
+          <div className="category small">Drinks</div>
+          <div className="category large">Drinks</div>
+        </div>
+        <div className="category-row">
+          <div className="category large">Drinks</div>
+          <div className="category small">Drinks</div>
+        </div>
+        <div className="category-row">
+          <div className="category small">Drinks</div>
+          <div className="category large">Drinks</div>
+        </div>
+        <div className="category-row">
+          <div className="category large">Drinks</div>
+          <div className="category small">Drinks</div>
+        </div>
+        <div className="category-row">
+          <div className="category small">Drinks</div>
+          <div className="category large">Drinks</div>
+        </div>
+        <div className="category-row">
+          <div className="category large">Drinks</div>
+          <div className="category small">Drinks</div>
+        </div>        
+      </div>
     </>
   );
 }

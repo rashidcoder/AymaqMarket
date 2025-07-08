@@ -1,6 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+  padding: 1rem;
+}
+
 .cart-container {
   max-width: 500px;
-  margin: 2rem auto;
+  margin: auto;
   background: white;
   border-radius: 10px;
   padding: 1rem;
@@ -75,27 +87,9 @@ h2 {
 .checkout-btn:hover {
   background: #1a5dc9;
 }
+/* Oldingi style.css ni to'liq ishlat, faqat oxiriga shu classni qo‘sh: */
 
 .empty-cart-msg {
   font-size: 1rem;
   margin-top: 2rem;
-  text-align: center;
-  color: #888;
-}
-
-.clear-btn {
-  width: 100%;
-  background: #ff4d4d;
-  color: white;
-  padding: 0.8rem;
-  border: none;
-  border-radius: 8px;
-  margin-top: 0.7rem;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.clear-btn:hover {
-  background: #cc0000;
 }
