@@ -1,17 +1,18 @@
 import "./Home.css";
 import {CirclePlus, Search, } from "lucide-react"
+import cocacola from "../Images/cocacola.png";
 
 
 function Home() {
   const products = [
-    { id: 1, name: "Premium Headphones", price: "$99.99", image: require("../Images/cocacola.png") },
-    { id: 2, name: "Wireless Speaker", price: "$79.99", image: require("../Images/cocacola.png") },
-    { id: 3, name: "Smart Watch", price: "$199.99", image: require("../Images/cocacola.png") },
-    { id: 4, name: "Bluetooth Earbuds", price: "$59.99", image: require("../Images/cocacola.png") },
-    { id: 5, name: "Premium Headphones", price: "$99.99", image: require("../Images/cocacola.png") },
-    { id: 6, name: "Wireless Speaker", price: "$79.99", image: require("../Images/cocacola.png") },
-    { id: 7, name: "Smart Watch", price: "$199.99", image: require("../Images/cocacola.png") },
-    { id: 8, name: "Bluetooth Earbuds", price: "$59.99", image: require("../Images/cocacola.png") },
+    { id: 1, name: "Premium Headphones", price: "$99.99", image:cocacola },
+    { id: 2, name: "Wireless Speaker", price: "$79.99", image:cocacola },
+    { id: 3, name: "Smart Watch", price: "$199.99", image:cocacola },
+    { id: 4, name: "Bluetooth Earbuds", price: "$59.99", image:cocacola },
+    { id: 5, name: "Premium Headphones", price: "$99.99", image:cocacola },
+    { id: 6, name: "Wireless Speaker", price: "$79.99", image:cocacola },
+    { id: 7, name: "Smart Watch", price: "$199.99", image:cocacola },
+    { id: 8, name: "Bluetooth Earbuds", price: "$59.99", image:cocacola },
   ];
 
   return (

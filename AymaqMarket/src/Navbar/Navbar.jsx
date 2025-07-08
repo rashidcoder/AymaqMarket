@@ -34,7 +34,7 @@ function Navbar() {
             <Link
               key={item.href}
               to={item.href}
-              className={"nav-item"}
+              className={`nav-item ${isActive ? "active" : ""}`}
               aria-label={item.label}
             >
               <Icon size={20} className={"nav-icon"} />
