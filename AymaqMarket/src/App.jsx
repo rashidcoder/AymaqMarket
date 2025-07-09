@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div className="test-banner">
-        Website now <span className="highlight">test mode.</span>
+        Site now <span className="highlight">test mode.</span>
       </div>
       <Router>
         <Routes>
