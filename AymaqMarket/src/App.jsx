@@ -9,14 +9,19 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <>
+      <div className="test-banner">
+        Website now <span className="highlight">test mode.</span>
+      </div>
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/catalog" element={<Catalog />} />
         </Routes>
-      <Navbar />
-    </Router>
+        <Navbar />
+      </Router>
+    </>
   );
 }
 

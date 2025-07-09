@@ -16,3 +16,35 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
 }
+
+/*Test mode styles*/
+
+@keyframes moveBanner {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: 100%;
+  }
+}
+
+.test-banner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #008000;
+  color: black;
+  padding: 8px 16px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  white-space: nowrap;
+  z-index: 10000;
+  animation: moveBanner 10s linear infinite;
+  cursor: default;
+}
+
+.test-banner .highlight {
+  color: red;
+}
+
+/*Test mode styles*/
